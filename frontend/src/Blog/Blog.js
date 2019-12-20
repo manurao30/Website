@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import './Landing.css';
+import './Blog.css';
 
 import Header from '../Header/Header.js';
 
-export default class Landing extends Component {
+export default class Blog extends Component {
     render() {
-        return (
+        return(
             <div>
                 <Header />
+                <div> Blog </div>
             </div>
         )
     }

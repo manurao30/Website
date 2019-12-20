@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import './Landing.css';
+import './Contact.css';
 
 import Header from '../Header/Header.js';
 
-export default class Landing extends Component {
+export default class Contact extends Component {
     render() {
-        return (
+        return(
             <div>
                 <Header />
+                <div> Contact </div>
             </div>
         )
     }

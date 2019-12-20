@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import './Landing.css';
+import './Experience.css';
 
 import Header from '../Header/Header.js';
 
-export default class Landing extends Component {
+export default class Experience extends Component {
     render() {
-        return (
+        return(
             <div>
                 <Header />
+                <div> Experience </div>
             </div>
         )
     }

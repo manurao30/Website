@@ -1,7 +1,20 @@
 .App-header {
-    background-color: #ffc6e1;
+    background-color: black;
     height: 100px;
     display: flex;
     justify-content: space-between;
     /* font-size: calc(10px + 2vmin); */
+}
+
+.Header-opts {
+    display: flex;
+    width: 70%;
+    padding-left: 15%;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.Header-option {
+    color: white;
+    text-decoration: none;
 }
